@@ -17,6 +17,10 @@ This guide explains how to set up and run both the YOLO detection standalone scr
 
 ### Dependencies
 The following dependencies are required for both the script and API:
+- to install dependencies you can use 
+`pip install -r /path/to/requirements.txt` or
+`uv pip install -r /path/to/requirements.txt`
+
 ```plaintext
 fastapi>=0.115.5
 opencv-python-headless>=4.10.0.84
