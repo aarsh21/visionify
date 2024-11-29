@@ -859,8 +859,12 @@ name = "visionify"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "opencv-python" },
     { name = "ultralytics" },
 ]
 
 [package.metadata]
-requires-dist = [{ name = "ultralytics", specifier = ">=8.3.39" }]
+requires-dist = [
+    { name = "opencv-python", specifier = ">=4.10.0.84" },
+    { name = "ultralytics", specifier = ">=8.3.39" },
+]
