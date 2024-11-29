@@ -1,4 +1,4 @@
-## Documentation: Running the YOLO Detection Script and API with `uv` Package Manager
+## Running the YOLO Detection Script and API with `uv` Package Manager
 
 ### [Training Documentation](https://github.com/aarsh21/visionify/blob/main/TRAIN.md)
 
@@ -112,6 +112,15 @@ The API allows users to perform object detection by uploading images through a R
      ```
 
 ---
+
+## Performance
+| **Category**               | **mAP@50-95** | **Precision** | **Recall** |
+|----------------------------|---------------|---------------|------------|
+| Traffic Light - Green      | 0.7333        | 0.6427        | 0.7377     |
+| Traffic Light - Off        | 0.3016        | 0.5413        | 0.2401     |
+| Traffic Light - Red        | 0.7391        | 0.6831        | 0.7573     |
+| Traffic Light - Yellow     | 1.0000        | 0.8912        | 0.9950     |
+
 
 ### Troubleshooting
 
