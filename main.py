@@ -7,11 +7,10 @@ import logging
 from typing import List, Dict
 from pydantic import BaseModel
 
-# Configure logging
+
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-# Initialize the YOLO model
 try:
     model = YOLO('best.pt')
     logger.info("Model loaded successfully")
@@ -19,7 +18,6 @@ except Exception as e:
     logger.error(f"Error loading model: {e}")
     model = None
 
-# Create FastAPI app
 app = FastAPI(title="YOLO Object Detection API")
 
 class Prediction(BaseModel):
