@@ -1,5 +1,7 @@
 ## Documentation: Running the YOLO Detection Script and API with `uv` Package Manager
 
+### [Training Documentation](https://github.com/aarsh21/visionify/blob/main/TRAIN.md)
+
 This guide explains how to set up and run both the YOLO detection standalone script and the FastAPI-based YOLO object detection API using the `uv` package manager. The dependencies required for the project are pre-defined in the `uv` package manager.
 
 ---
@@ -26,6 +28,7 @@ numpy>=1.26.4
 ```
 
 ---
+
 
 ### Installation Steps
 
