@@ -141,4 +141,4 @@ The API allows users to perform object detection by uploading images through a R
 
 
 
-This documentation ensures a seamless setup and execution process for both standalone and API-based object detection workflows.
+> **Note:** Throughout the task, heavy usage of ChatGPT was employed for guidance, code suggestions, and structuring the project.
